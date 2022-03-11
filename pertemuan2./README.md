@@ -18,10 +18,20 @@ Aplikasi ini dibuat untuk mempermudah pengurus dari sebuah organisasi untuk mend
 ### Pendapatan
 - id_pendapatan
 - waktu_pendapatan
-- jenis_pendapatan
+- id_jenis_pendapatan
 - nominal_pendapatan
 ### Pengeluaran
 - id_pengeluaran
 - waktu_pengeluaran
 - jenis_pengeluaran
 - nominal_pengeluaran
+### Jenis Pendapatan
+- id_jenis_pendapatan
+- nama_pendapatan
+### Jenis Pengeluaran
+- id_jenis_pengeluaran
+- nama_pengeluaran
+### Laporan
+- id_laporan
+- nama_laporan
+- id_keegiatan
