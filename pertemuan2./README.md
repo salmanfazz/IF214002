@@ -1,5 +1,7 @@
 # Ide Solusi : Sistem Pengelolaan Organisasi
-## Deskripsi
+[Sistem Pengelolaan Organisasi](https://user-images.githubusercontent.com/49604034/158011278-d2bea288-af75-4556-8abb-7194a7406488.png)
+
+## Deskripsi!
 Aplikasi ini dibuat untuk mempermudah pengurus dari sebuah organisasi untuk mendata berbagai macam kegiatan yang akan dilakukan kedepannya serta pemasukan dan pengeluaran organisasi agar menghindari penyalahgunaan dana yang telah dikumpulkan dari anggota. Fitur fitur aplikasi ini antara lain :
 - Pengelolaan Jadwal Kegiatan Organisasi
 - Pengelolaan Sistem Keuangan Organisasi
