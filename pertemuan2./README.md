@@ -36,4 +36,4 @@ Aplikasi ini dibuat untuk mempermudah pengurus dari sebuah organisasi untuk mend
 ### Laporan
 - id_laporan
 - nama_laporan
-- id_keegiatan
+- id_kegiatan
