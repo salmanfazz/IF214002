@@ -25,7 +25,7 @@ Aplikasi ini dibuat untuk mempermudah pengurus dari sebuah organisasi untuk mend
 ### Pengeluaran
 - /* id_pengeluaran
 - waktu_pengeluaran
-- jenis_pengeluaran
+- id_jenis_pengeluaran
 - nominal_pengeluaran
 ### Jenis Pendapatan
 - /* id_jenis_pendapatan
