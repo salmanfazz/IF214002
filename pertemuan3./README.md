@@ -1,5 +1,6 @@
 # Ide Solusi : Sistem Pengelolaan Organisasi
 ![Sistem Pengelolaan Organisasi](https://user-images.githubusercontent.com/49604034/158011424-6adf05fd-890c-4627-851e-021021491393.png)
+![ERD](https://user-images.githubusercontent.com/49604034/160035210-3b05543b-f903-47ef-a670-a6d3468d5b3f.PNG)
 
 ## Deskripsi!
 Aplikasi ini dibuat untuk mempermudah pengurus dari sebuah organisasi untuk mendata berbagai macam kegiatan yang akan dilakukan kedepannya serta pemasukan dan pengeluaran organisasi agar menghindari penyalahgunaan dana yang telah dikumpulkan dari anggota. Fitur fitur aplikasi ini antara lain :
