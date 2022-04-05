@@ -1,6 +1,6 @@
 # Ide Solusi : Sistem Jahit Online
 ![Sistem Jahit Online]()
-![ERD Sistem Jahit Online]()
+![ERD Sistem Jahit Online](https://user-images.githubusercontent.com/49604034/161683801-0de6ff8c-7491-435e-86aa-fd3d5de5ff30.png)
 
 ## Deskripsi!
 Aplikasi ini dibuat untuk mempermudah proses pemesanan pembuatan baju (jahit baju) yang biasanya dilakukan secara offline datang langsung ke tempat penjahitnya, dengan aplikasi ini user atau konsumen dapat memesan pembuatan baju (jahit baju) secara online menggunakan aplikasi tanpa harus datang langsung ke tempat penjahitnya. Fitur fitur yang ada dalam aplikasi ini antara lain :
