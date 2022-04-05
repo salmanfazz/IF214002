@@ -1,4 +1,3 @@
-
 # Ide Solusi : Sistem Jahit Online
 ![Sistem Jahit Online]()
 ![ERD Sistem Jahit Online]()
@@ -30,7 +29,17 @@ Aplikasi ini dibuat untuk mempermudah proses pemesanan pembuatan baju (jahit baj
 - id_pesanan
 - id_user
 - id_penjahit
-- jenis_baju
+- id_detail_pesanan
+
+### Detail Pesanan
+- /* id_detail_pesanan
+- lingkar_dada
+- lingkar_pinggul
+- lingkar_pinggang
+- panjang_baju
+- panjang_lengan
+- panjang_celanan
+- gambar
 
 ### Konsultasi
 - /* id_konsutlasi
