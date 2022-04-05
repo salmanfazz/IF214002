@@ -1,6 +1,6 @@
 
 # Ide Solusi : Sistem Jahit Online
-![Sistem Jahit Online]((https://user-images.githubusercontent.com/49604034/161682156-d596a8c4-aebe-4a09-a364-0234a8e617b0.png)
+![Sistem Jahit Online](https://user-images.githubusercontent.com/49604034/161682156-d596a8c4-aebe-4a09-a364-0234a8e617b0.png)
 ![ERD Sistem Jahit Online](https://user-images.githubusercontent.com/49604034/161681960-e1380034-577a-403c-9d45-da97ba35e634.png)
 
 ## Deskripsi!
