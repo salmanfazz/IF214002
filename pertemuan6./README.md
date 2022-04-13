@@ -1,22 +1,12 @@
 
 # Ide Solusi : Sistem Jahit Online
-![Sistem Jahit Online](https://user-images.githubusercontent.com/49604034/161683877-ac12b46a-2ef5-491b-8d87-a37d1c82fec3.png)
-![ERD Sistem Jahit Online](https://user-images.githubusercontent.com/49604034/161683801-0de6ff8c-7491-435e-86aa-fd3d5de5ff30.png)
+![ERD New](https://user-images.githubusercontent.com/49604034/163092780-a6cad3bb-dae4-491a-ae5c-f5223e51cd66.png)
 
-## Deskripsi!
-Aplikasi ini dibuat untuk mempermudah proses pemesanan pembuatan baju (jahit baju) yang biasanya dilakukan secara offline datang langsung ke tempat penjahitnya, dengan aplikasi ini user atau konsumen dapat memesan pembuatan baju (jahit baju) secara online menggunakan aplikasi tanpa harus datang langsung ke tempat penjahitnya. Fitur fitur yang ada dalam aplikasi ini antara lain :
-- Pemesanan Pembuatan Baju
-- List Pesanan 
-- Konsultasi
-- Ulasan Pembeli
-## Entitas  dan Atribut :
 ### User / Konsumen
-- /* id_user
-- email
-- password
-- nama_user
-- no_hp
-- alamat
+|🔑id_user| email | password | nama_user | no_hp | alamat|
+|---|---|---|---|---|---|
+| 1 | salman.fazzz@gmail.com | ********** | Salman Fauzan | 089649799600 | Bandung |
+| 2 | audisyzhn2002.com | ********** | Audi Syahzehan | 089649799678 | Jakarta |
 
 ### Penjahit
 - /* id_penjahit
