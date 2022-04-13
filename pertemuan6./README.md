@@ -1,6 +1,6 @@
 
 # Normalisasi
-![ERD New](https://user-images.githubusercontent.com/49604034/163092780-a6cad3bb-dae4-491a-ae5c-f5223e51cd66.png)
+![ERD New](https://user-images.githubusercontent.com/49604034/163098378-8df244c5-8c0e-410b-b987-822a064a433e.png)
 
 ### User / Konsumen
 |🔑id_user| email | password | nama_user | no_hp | alamat |
