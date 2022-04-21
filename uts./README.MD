@@ -1,9 +1,13 @@
 1. Basis data relasional dapat langsung dibangun menggunakan perintah SQL di sistem basis data seperti MySQL, dsb tanpa ada perancangan terlebih dahulu. Jelaskan apa keuntungan melakukan perancangan basis data terlebih dahulu (menggunakan ERD ataupun Class Diagram) !
 2. Jelaskan bagaimana cara mentransformasikan proses bisnis sebuah organisasi menjadi struktur data di basis data !
 3. Rancang solusi digital dari satu permasalahan yang ada di sekitar Anda. 
+
    a. Deskripsikan solusi digital tersebut dalam satu paragraf
+   
    b. Buat list fitur-fitur yang ada pada solusi digital tersebut
+   
    c. Buat ERD notasi Chen dari struktur data yang mewakili fitur2 di solusi digital tersebut
+   
    d. Buat ERD notasi Crow Foot dari struktur data logical yang mewakili fitur2 di solusi digital tersebut, lengkap dengan keys, tipe data, dan normalisasi hingga bentuk ke 3
 
 Jawab :
@@ -15,10 +19,16 @@ Jawab :
    - Apabila terdapat tabel yang saling berhubungan, maka dapat ditambahkan foreign key ke dalam tabel tersebut sehingga akan berelasi
    - Melakukan normalisasi hingga bentuk ke 3 untuk menghindari redudansi data
 3. a. Aplikasi ini dibuat untuk mengetahui data histori karyawan yang dimulai dari data histori gaji, data histori jabatan dan data histori tempat tinggal. Dengan menggunakan aplikasi ini, maka perusahaan atau karyawan dapat mengetahui histori dari setiap karyawan yang ada dalam perusahaannya.
+
    b. Fitur - fitur yang akan dibuat nantinya antara lain :
       - Data Karyawan
       - Data Histori Gaji
       - Data Histori Jabatan
       - Data Histori Tempat Tinggal
-   c. 
-   d.
+ 
+   c. ERD Karyawan - Notasi Chen
+   ![Notasi Diagram](https://user-images.githubusercontent.com/49604034/164362635-c9988dc2-0f8c-4fc8-9459-b577063d543e.jpg)
+   
+   d. ERD Karyawan - Notasi Crew
+   
+   ![ERD](https://user-images.githubusercontent.com/49604034/164359819-9e4b3dcb-9a14-455a-b9e1-dfe032bb734c.JPG))
