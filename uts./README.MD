@@ -27,8 +27,27 @@ Jawab :
       - Data Histori Tempat Tinggal
  
    c. ERD Karyawan - Notasi Chen
+   
    ![Notasi Diagram](https://user-images.githubusercontent.com/49604034/164362635-c9988dc2-0f8c-4fc8-9459-b577063d543e.jpg)
    
    d. ERD Karyawan - Notasi Crew
    
-  ![ERD_Karyawan](https://user-images.githubusercontent.com/49604034/164363238-5fe6d71d-6120-4f01-880f-510b80c8cd26.jpg)
+   ![ERD_Karyawan](https://user-images.githubusercontent.com/49604034/164363238-5fe6d71d-6120-4f01-880f-510b80c8cd26.jpg)
+  
+  ## Karyawan
+  |🔑id_karyawan| nama | tempat_lahir | tanggal_lahir | jenis_kelamin | agama | no_hp | tanggal_masuk | status | alamat | id_jabatan | id_gaji | tanggal_update_data |
+  |---|---|---|---|---|---|---|---|---|---|---|---|---|
+  | 1 | Salman Fauzan Fahri Aulia | Bandung | 04-03-2002 | Laki-Laki | Islam | 089649799600 | 04-21-2022 | Belum Menikah | Komp. Permata Kopo Blok C 67 | 1 | 1 | 04-21-2022 |
+  | 2 | Audi Syahzehan | Bandung | 12-04-2002 | Laki-Laki | Islam | 089649799666 | 04-21-2022 | Belum Menikah | Jl. Terusan Buah Batu | 2 | 2 | 04-21-2022 |
+  
+  ## Jabatan
+  |🔑id_jabatan| nama_jabatan | status | waktu |
+  |---|---|---|---|
+  | 1 | Pegawai Tetap | Aktif | 04-21-2022 |
+  | 2 | Pegawai Honorer | Aktif | 04-21-2022 |
+  
+  ## Gaji
+  |🔑id_gaji| gaji_bersih | gaji_pokok | tunjangan | total_gaji | waktu |
+  |---|---|---|---|---|---|
+  | 1 | 3000000 | 2500000 | 500000 | 3000000 | 04-21-2022 |
+  | 2 | 1500000 | 1000000 | 500000 | 1500000 | 04-21-2022 |
