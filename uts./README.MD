@@ -31,4 +31,4 @@ Jawab :
    
    d. ERD Karyawan - Notasi Crew
    
-   ![ERD](https://user-images.githubusercontent.com/49604034/164359819-9e4b3dcb-9a14-455a-b9e1-dfe032bb734c.JPG))
+  ![ERD_Karyawan](https://user-images.githubusercontent.com/49604034/164363238-5fe6d71d-6120-4f01-880f-510b80c8cd26.jpg)
