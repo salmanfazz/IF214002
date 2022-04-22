@@ -40,5 +40,5 @@ CREATE TABLE Gaji(
 
 ## Foreign Key Query
 ALTER TABLE karyawan
-  ADD FOREIGN KEY (`id_jabatan`) REFERENCES `db_admin`.`jabatan`(`id_jabatan`),
-  ADD FOREIGN KEY (`id_gaji`) REFERENCES `db_admin`.`gaji`(`id_gaji`);
+  ADD FOREIGN KEY (`id_jabatan`) REFERENCES `jabatan`(`id_jabatan`),
+  ADD FOREIGN KEY (`id_gaji`) REFERENCES `gaji`(`id_gaji`);
