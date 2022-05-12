@@ -129,7 +129,7 @@ Terdapat berbagai macam jenis penggunaan dari Data Query Language, namun pada da
 - GROUP BY, terdiri atas SUM COUNT AVERAGE dan MIN MAX yang memiliki fungsi tersendiri seperti SUM dapat menjumlahkan isi dari dua kolom atau lebih, COUNT dapat menghitung jumlah data pada table tertentu, AVERAGE digunakan untuk menghitung rata rata serta MIN MAX untuk mengetahui data terkecil dan terbesar
 
 
-#Tugas
+## Tugas
 SELECT * , TIMESTAMPDIFF(YEAR,tanggal_lahir,CURDATE()) AS umur 
 FROM penduduk 
 WHERE kode_kabupaten = 3204
