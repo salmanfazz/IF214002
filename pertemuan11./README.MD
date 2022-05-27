@@ -91,7 +91,7 @@ INSERT INTO penjahit(id_penjahit,email,password,nama,no_hp,alamat) VALUES
 ```
 ### User/Konsumen
 ```sql
-INSERT INTO user(id_konsumen,email,password,nama,no_hp,alamat) VALUES
+INSERT INTO konsumen(id_konsumen,email,password,nama,no_hp,alamat) VALUES
 ('1','audisyzhn2002@gmail.com','da3908a30555b982d4a93bbff0a65ea21b64442a','Audi Syahzehan','089649799678','Jl. Terusan Buah Batu No. 146')
 ```
 ### Pesanan
