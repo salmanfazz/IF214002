@@ -33,7 +33,7 @@ CREATE TABLE `pesanan` (
   `id_konsumen` int(10) DEFAULT NULL,
   `id_penjahit` int(10) DEFAULT NULL,
   `id_detail_pesanan` int(10) DEFAULT NULL,
-  PRIMARY KEY (`id_pesanan`),
+  PRIMARY KEY (`id_pesanan`)
 )
 ```
 
@@ -59,7 +59,7 @@ CREATE TABLE `pembayaran` (
   `waktu_pembayaran` datetime DEFAULT NULL,
   `total_bayar` varchar(100) DEFAULT NULL,
   `status_bayar` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`id_pembayaran`),
+  PRIMARY KEY (`id_pembayaran`)
 )
 ```
 ### Konsultasi
@@ -69,7 +69,7 @@ CREATE TABLE `konsultasi` (
   `id_konsumen` int(10) DEFAULT NULL,
   `id_penjahit` int(10) DEFAULT NULL,
   `waktu_konsultasi` datetime DEFAULT NULL,
-  PRIMARY KEY (`id_konsultasi`),
+  PRIMARY KEY (`id_konsultasi`)
 )
 ```
 ### Keranjang
@@ -78,7 +78,7 @@ CREATE TABLE `keranjang` (
   `id_keranjang` int(10) NOT NULL AUTO_INCREMENT,
   `id_pesanan` int(10) DEFAULT NULL,
   `jumlah` int(10) DEFAULT NULL,
-  PRIMARY KEY (`id_keranjang`),
+  PRIMARY KEY (`id_keranjang`)
 )
 ```
 # DML
