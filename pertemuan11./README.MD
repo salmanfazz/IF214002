@@ -47,6 +47,7 @@ CREATE TABLE `detail_pesanan` (
   `panjang_baju` varchar(10) DEFAULT NULL,
   `panjang_lengan` varchar(10) DEFAULT NULL,
   `panjang_celana` varchar(10) DEFAULT NULL,
+  `keterangan`. varchar(100) DEFAULT NULL,
   `gambar` text,
   PRIMARY KEY (`id_detail_pesanan`)
 )
