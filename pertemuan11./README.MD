@@ -85,12 +85,12 @@ CREATE TABLE `keranjang` (
 ## INSERT TABLE
 ### Penjahit
 ```sql
-INSERT INTO penjahit(id_penjahit,email,password,nama_penjahit,no_hp,alamat) VALUES
+INSERT INTO penjahit(id_penjahit,email,password,nama,no_hp,alamat) VALUES
 ('1','salman.fazzz@gmail.com','da3908a30555b982d4a93bbff0a65ea21b64442a','Salman Fauzan Fahri Aulia','089649799600','Komp. Permata Kopo Blok C67')
 ```
 ### User/Konsumen
 ```sql
-INSERT INTO user(id_konsumen,email,password,nama_penjahit,no_hp,alamat) VALUES
+INSERT INTO user(id_konsumen,email,password,nama,no_hp,alamat) VALUES
 ('1','audisyzhn2002@gmail.com','da3908a30555b982d4a93bbff0a65ea21b64442a','Audi Syahzehan','089649799678','Jl. Terusan Buah Batu No. 146')
 ```
 ### Pesanan
