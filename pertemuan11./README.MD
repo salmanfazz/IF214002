@@ -120,3 +120,17 @@ INSERT INTO konsultasi(id_konsultasi,id_konsumen,id_penjahit,waktu_konsultasi) V
 ('1','1','1','2022-04-12 10:20:27')
 ```
 # DQL
+## SELECT
+```sql
+SELECT pesanan.`id_pesanan`,keranjang.`id_keranjang`,konsumen.`nama` AS nama_konsumen,penjahit.`nama` AS nama_penjahit,pembayaran.`total_bayar`,pembayaran.`status_bayar`
+FROM konsumen,pesanan,penjahit,pembayaran,keranjang
+WHERE konsumen.`id_konsumen`= pesanan.`id_konsumen` && penjahit.`id_penjahit` = pesanan.`id_penjahit` && pembayaran.`id_keranjang` = keranjang.`id_keranjang` && pesanan.`id_pesanan` = keranjang.`id_pesanan`
+```
+
+```sql
+SELECT konsumen.`nama` AS nama_konsumen, penjahit.`nama` AS nama_penjahit, detail_pesanan.`keterangan`, keranjang.`jumlah`, pembayaran.`total_bayar`
+FROM konsumen, penjahit, detail_pesanan, keranjang, pembayaran, pesanan
+WHERE konsumen.`id_konsumen`= pesanan.`id_konsumen` && penjahit.`id_penjahit` = pesanan.`id_penjahit` && detail_pesanan.`id_detail_pesanan` = pesanan.`id_detail_pesanan`&& keranjang.`id_keranjang` = pembayaran.`id_keranjang` && keranjang.`id_pesanan` = pesanan.`id_pesanan`
+
+```
+
