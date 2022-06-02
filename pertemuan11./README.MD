@@ -131,6 +131,17 @@ WHERE konsumen.`id_konsumen`= pesanan.`id_konsumen` && penjahit.`id_penjahit` = 
 SELECT konsumen.`nama` AS nama_konsumen, penjahit.`nama` AS nama_penjahit, detail_pesanan.`keterangan`, keranjang.`jumlah`, pembayaran.`total_bayar`
 FROM konsumen, penjahit, detail_pesanan, keranjang, pembayaran, pesanan
 WHERE konsumen.`id_konsumen`= pesanan.`id_konsumen` && penjahit.`id_penjahit` = pesanan.`id_penjahit` && detail_pesanan.`id_detail_pesanan` = pesanan.`id_detail_pesanan`&& keranjang.`id_keranjang` = pembayaran.`id_keranjang` && keranjang.`id_pesanan` = pesanan.`id_pesanan`
-
 ```
 
+## SUM
+```sql
+SELECT SUM(pembayaran.`total_bayar`) AS total_pendapatan
+FROM pembayaran
+```
+
+## COUNT
+```sql
+SELECT COUNT(pesanan.`id_pesanan`) AS jumlah_pesanan, COUNT(konsumen.`id_konsumen`) AS jumlah_konsumen, COUNT(penjahit.`id_penjahit`) AS jumlah_penjahit
+FROM pesanan, penjahit, konsumen
+WHERE pesanan.`id_konsumen` = konsumen.`id_konsumen` && pesanan.`id_penjahit` = penjahit.`id_penjahit
+```
